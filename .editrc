@@ -1,0 +1,4 @@
+mysql:bind -s "^ks" "SELECT * FROM "
+mysql:bind -s "^kc" "SHOW CREATE TABLE "
+mysql:bind -s "^kt" "SHOW TABLES;\n"
+mysql:bind -s "^kd" "SHOW DATABASES;\n"
